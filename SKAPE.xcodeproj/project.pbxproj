@@ -3,27 +3,106 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CDC0E0FE4C9236ECD5DF571F /* Pods_SKAPE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDBD309EE653ABA5CB97699 /* Pods_SKAPE.framework */; };
+		FF2B1D6A2545C7E300911E7D /* LocationInputActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2B1D692545C7E200911E7D /* LocationInputActivationView.swift */; };
+		FF2B1D702548A43C00911E7D /* LocationInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2B1D6F2548A43C00911E7D /* LocationInputView.swift */; };
+		FF3C8B8C25F2C23600F406D4 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C8B8B25F2C23600F406D4 /* Messages.swift */; };
+		FF596639255F06D200D26CF6 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF596638255F06D200D26CF6 /* LocationCell.swift */; };
+		FF5C68612561D08800E36903 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C68602561D08800E36903 /* User.swift */; };
+		FF5C68642561F8A700E36903 /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C68632561F8A700E36903 /* LocationHandler.swift */; };
+		FF5C686B256353C000E36903 /* LandscaperAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C686A256353C000E36903 /* LandscaperAnnotation.swift */; };
+		FF5C68762565FE9600E36903 /* SkapeActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C68752565FE9600E36903 /* SkapeActionView.swift */; };
+		FF5C68792568362C00E36903 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C68782568362B00E36903 /* Job.swift */; };
+		FF5C68802568561000E36903 /* JobController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5C687F2568561000E36903 /* JobController.swift */; };
+		FF7A8FAF2578685100FFCED5 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A8FAE2578685100FFCED5 /* MenuController.swift */; };
+		FF7A8FB22578687900FFCED5 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A8FB12578687900FFCED5 /* ContainerController.swift */; };
+		FF7A8FB5257AF4FF00FFCED5 /* MenuHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A8FB4257AF4FF00FFCED5 /* MenuHeader.swift */; };
+		FF7A8FB9257C4E5700FFCED5 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A8FB8257C4E5600FFCED5 /* SettingsController.swift */; };
+		FF7A8FBD257C565800FFCED5 /* AddLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A8FBC257C565800FFCED5 /* AddLocationController.swift */; };
+		FF7A8FC0257C56D100FFCED5 /* UserInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A8FBF257C56D100FFCED5 /* UserInfoHeader.swift */; };
+		FF7A8FC3257C6D7B00FFCED5 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7A8FC2257C6D7B00FFCED5 /* CircularProgressView.swift */; };
+		FF9C634E258860EC0086A809 /* ServicesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9C634D258860EC0086A809 /* ServicesList.swift */; };
+		FFA0E3E125BF5169001ACDF1 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA0E3E025BF5169001ACDF1 /* SideMenuView.swift */; };
+		FFA0E3E425BF5188001ACDF1 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA0E3E325BF5188001ACDF1 /* SideMenuHeaderView.swift */; };
+		FFA0E3E725BF51A7001ACDF1 /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA0E3E625BF51A7001ACDF1 /* SideMenuOptionView.swift */; };
+		FFA0E3EA25BF51C5001ACDF1 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA0E3E925BF51C5001ACDF1 /* SideMenuViewModel.swift */; };
+		FFAB0DEA2586C30900BE12C4 /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAB0DE92586C30900BE12C4 /* StartButton.swift */; };
+		FFAB0DF42587C58F00BE12C4 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAB0DF32587C58E00BE12C4 /* Buttons.swift */; };
+		FFAF75ED25F97C600062A33C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAF75EC25F97C600062A33C /* TabBarController.swift */; };
+		FFC231822583E8ED00C4385D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC231812583E8ED00C4385D /* ContentView.swift */; };
+		FFC2318A2583EAEF00C4385D /* SkapeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC231892583EAEF00C4385D /* SkapeApp.swift */; };
+		FFC2318F2583EC9B00C4385D /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FFC2318E2583EC9B00C4385D /* KingfisherSwiftUI */; };
+		FFC231A62583FC5800C4385D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC231A52583FC5800C4385D /* HomeView.swift */; };
+		FFC231B225842B4700C4385D /* HomepageLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC231B125842B4700C4385D /* HomepageLogoView.swift */; };
+		FFC231B625853B1400C4385D /* SmallVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC231B525853B1400C4385D /* SmallVerticalButton.swift */; };
 		FFC48BB525379DDA00EE9180 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC48BB425379DDA00EE9180 /* AppDelegate.swift */; };
 		FFC48BB725379DDA00EE9180 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC48BB625379DDA00EE9180 /* SceneDelegate.swift */; };
-		FFC48BB925379DDA00EE9180 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC48BB825379DDA00EE9180 /* ViewController.swift */; };
 		FFC48BBC25379DDA00EE9180 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC48BBA25379DDA00EE9180 /* Main.storyboard */; };
 		FFC48BBE25379DDC00EE9180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC48BBD25379DDC00EE9180 /* Assets.xcassets */; };
 		FFC48BC125379DDC00EE9180 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC48BBF25379DDC00EE9180 /* LaunchScreen.storyboard */; };
+		FFC48BD42537A0E100EE9180 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC48BD32537A0E100EE9180 /* LoginController.swift */; };
+		FFC48BDE2537AFE400EE9180 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC48BDD2537AFE400EE9180 /* Extensions.swift */; };
+		FFC48BE12539D31400EE9180 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC48BE02539D31400EE9180 /* SignUpController.swift */; };
+		FFC48BE9253A4A9700EE9180 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC48BE8253A4A9700EE9180 /* AuthButton.swift */; };
+		FFC48BEC253F2DBB00EE9180 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFC48BEB253F2DBB00EE9180 /* GoogleService-Info.plist */; };
+		FFC48C15253F54EA00EE9180 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC48C14253F54EA00EE9180 /* HomeController.swift */; };
+		FFD4F13F2561860D004BF365 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD4F13E2561860D004BF365 /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9367B1C0CD029183B8F7AA97 /* Pods-SKAPE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKAPE.release.xcconfig"; path = "Target Support Files/Pods-SKAPE/Pods-SKAPE.release.xcconfig"; sourceTree = "<group>"; };
+		EC45AEB2D26579379FED994D /* Pods-SKAPE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKAPE.debug.xcconfig"; path = "Target Support Files/Pods-SKAPE/Pods-SKAPE.debug.xcconfig"; sourceTree = "<group>"; };
+		FF2B1D692545C7E200911E7D /* LocationInputActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInputActivationView.swift; sourceTree = "<group>"; };
+		FF2B1D6F2548A43C00911E7D /* LocationInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInputView.swift; sourceTree = "<group>"; };
+		FF3C8B8B25F2C23600F406D4 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		FF596638255F06D200D26CF6 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		FF5C68602561D08800E36903 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FF5C68632561F8A700E36903 /* LocationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHandler.swift; sourceTree = "<group>"; };
+		FF5C686A256353C000E36903 /* LandscaperAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscaperAnnotation.swift; sourceTree = "<group>"; };
+		FF5C68752565FE9600E36903 /* SkapeActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkapeActionView.swift; sourceTree = "<group>"; };
+		FF5C68782568362B00E36903 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		FF5C687F2568561000E36903 /* JobController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobController.swift; sourceTree = "<group>"; };
+		FF7A8FAE2578685100FFCED5 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		FF7A8FB12578687900FFCED5 /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		FF7A8FB4257AF4FF00FFCED5 /* MenuHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeader.swift; sourceTree = "<group>"; };
+		FF7A8FB8257C4E5600FFCED5 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		FF7A8FBC257C565800FFCED5 /* AddLocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationController.swift; sourceTree = "<group>"; };
+		FF7A8FBF257C56D100FFCED5 /* UserInfoHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoHeader.swift; sourceTree = "<group>"; };
+		FF7A8FC2257C6D7B00FFCED5 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		FF9C634D258860EC0086A809 /* ServicesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesList.swift; sourceTree = "<group>"; };
+		FFA0E3E025BF5169001ACDF1 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		FFA0E3E325BF5188001ACDF1 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		FFA0E3E625BF51A7001ACDF1 /* SideMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
+		FFA0E3E925BF51C5001ACDF1 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
+		FFAB0DE92586C30900BE12C4 /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
+		FFAB0DF32587C58E00BE12C4 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		FFAF75EC25F97C600062A33C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		FFC231812583E8ED00C4385D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFC231892583EAEF00C4385D /* SkapeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkapeApp.swift; sourceTree = "<group>"; };
+		FFC231A52583FC5800C4385D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FFC231B125842B4700C4385D /* HomepageLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepageLogoView.swift; sourceTree = "<group>"; };
+		FFC231B525853B1400C4385D /* SmallVerticalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallVerticalButton.swift; sourceTree = "<group>"; };
 		FFC48BB125379DDA00EE9180 /* SKAPE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKAPE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFC48BB425379DDA00EE9180 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFC48BB625379DDA00EE9180 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FFC48BB825379DDA00EE9180 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FFC48BBB25379DDA00EE9180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFC48BBD25379DDC00EE9180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFC48BC025379DDC00EE9180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFC48BC225379DDC00EE9180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC48BD125379F4700EE9180 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FFC48BD32537A0E100EE9180 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		FFC48BDA2537A2ED00EE9180 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		FFC48BDD2537AFE400EE9180 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FFC48BE02539D31400EE9180 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		FFC48BE8253A4A9700EE9180 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
+		FFC48BEB253F2DBB00EE9180 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FFC48C14253F54EA00EE9180 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		FFD4F13E2561860D004BF365 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		FFDBD309EE653ABA5CB97699 /* Pods_SKAPE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKAPE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +110,81 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFC2318F2583EC9B00C4385D /* KingfisherSwiftUI in Frameworks */,
+				CDC0E0FE4C9236ECD5DF571F /* Pods_SKAPE.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BE82CB3E9490CBBA8CD3B87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFDBD309EE653ABA5CB97699 /* Pods_SKAPE.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D003353AF7BE4B5731D11E7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC45AEB2D26579379FED994D /* Pods-SKAPE.debug.xcconfig */,
+				9367B1C0CD029183B8F7AA97 /* Pods-SKAPE.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF3C8B8A25F2C1DF00F406D4 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				FF3C8B8B25F2C23600F406D4 /* Messages.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		FF7A8FAC2578679F00FFCED5 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FF7A8FAE2578685100FFCED5 /* MenuController.swift */,
+				FF7A8FB12578687900FFCED5 /* ContainerController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		FF7A8FAD257867B800FFCED5 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				FFC48BD32537A0E100EE9180 /* LoginController.swift */,
+				FFC48BE02539D31400EE9180 /* SignUpController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		FF7A8FB7257C4E2800FFCED5 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FF7A8FB8257C4E5600FFCED5 /* SettingsController.swift */,
+				FF7A8FBC257C565800FFCED5 /* AddLocationController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		FFAF75EF25F97C800062A33C /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FFAF75EC25F97C600062A33C /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		FFC48BA825379DDA00EE9180 = {
 			isa = PBXGroup;
 			children = (
 				FFC48BB325379DDA00EE9180 /* SKAPE */,
 				FFC48BB225379DDA00EE9180 /* Products */,
+				4BE82CB3E9490CBBA8CD3B87 /* Frameworks */,
+				D003353AF7BE4B5731D11E7C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +199,88 @@
 		FFC48BB325379DDA00EE9180 /* SKAPE */ = {
 			isa = PBXGroup;
 			children = (
+				FFC231A52583FC5800C4385D /* HomeView.swift */,
+				FF9C634D258860EC0086A809 /* ServicesList.swift */,
+				FFA0E3E025BF5169001ACDF1 /* SideMenuView.swift */,
+				FFA0E3E925BF51C5001ACDF1 /* SideMenuViewModel.swift */,
+				FFC231B125842B4700C4385D /* HomepageLogoView.swift */,
+				FFC231B525853B1400C4385D /* SmallVerticalButton.swift */,
+				FFA0E3E625BF51A7001ACDF1 /* SideMenuOptionView.swift */,
+				FFA0E3E325BF5188001ACDF1 /* SideMenuHeaderView.swift */,
+				FFAB0DE92586C30900BE12C4 /* StartButton.swift */,
+				FFAB0DF32587C58E00BE12C4 /* Buttons.swift */,
+				FFC231812583E8ED00C4385D /* ContentView.swift */,
+				FFC231892583EAEF00C4385D /* SkapeApp.swift */,
+				FFC48BCE25379EA600EE9180 /* Model */,
+				FFC48BCD25379EA400EE9180 /* View */,
+				FFC48BCC25379EA100EE9180 /* Controller */,
+				FFC48BCB25379E9D00EE9180 /* Service */,
+				FFC48BCA25379E9B00EE9180 /* Utils */,
 				FFC48BB425379DDA00EE9180 /* AppDelegate.swift */,
 				FFC48BB625379DDA00EE9180 /* SceneDelegate.swift */,
-				FFC48BB825379DDA00EE9180 /* ViewController.swift */,
 				FFC48BBA25379DDA00EE9180 /* Main.storyboard */,
 				FFC48BBD25379DDC00EE9180 /* Assets.xcassets */,
 				FFC48BBF25379DDC00EE9180 /* LaunchScreen.storyboard */,
 				FFC48BC225379DDC00EE9180 /* Info.plist */,
+				FFC48BEB253F2DBB00EE9180 /* GoogleService-Info.plist */,
 			);
 			path = SKAPE;
+			sourceTree = "<group>";
+		};
+		FFC48BCA25379E9B00EE9180 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FFC48BDD2537AFE400EE9180 /* Extensions.swift */,
+				FF5C68632561F8A700E36903 /* LocationHandler.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FFC48BCB25379E9D00EE9180 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FFD4F13E2561860D004BF365 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FFC48BCC25379EA100EE9180 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FFAF75EF25F97C800062A33C /* TabBar */,
+				FF3C8B8A25F2C1DF00F406D4 /* Messages */,
+				FF7A8FB7257C4E2800FFCED5 /* Settings */,
+				FF7A8FAC2578679F00FFCED5 /* SideMenu */,
+				FF7A8FAD257867B800FFCED5 /* Authentication */,
+				FFC48C14253F54EA00EE9180 /* HomeController.swift */,
+				FF5C687F2568561000E36903 /* JobController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FFC48BCD25379EA400EE9180 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFC48BE8253A4A9700EE9180 /* AuthButton.swift */,
+				FF2B1D692545C7E200911E7D /* LocationInputActivationView.swift */,
+				FF2B1D6F2548A43C00911E7D /* LocationInputView.swift */,
+				FF596638255F06D200D26CF6 /* LocationCell.swift */,
+				FF5C68752565FE9600E36903 /* SkapeActionView.swift */,
+				FF7A8FB4257AF4FF00FFCED5 /* MenuHeader.swift */,
+				FF7A8FBF257C56D100FFCED5 /* UserInfoHeader.swift */,
+				FF7A8FC2257C6D7B00FFCED5 /* CircularProgressView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FFC48BCE25379EA600EE9180 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF5C68602561D08800E36903 /* User.swift */,
+				FF5C686A256353C000E36903 /* LandscaperAnnotation.swift */,
+				FF5C68782568362B00E36903 /* Job.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +290,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFC48BC525379DDC00EE9180 /* Build configuration list for PBXNativeTarget "SKAPE" */;
 			buildPhases = (
+				59541E3F23E28B12B5FBC29E /* [CP] Check Pods Manifest.lock */,
 				FFC48BAD25379DDA00EE9180 /* Sources */,
 				FFC48BAE25379DDA00EE9180 /* Frameworks */,
 				FFC48BAF25379DDA00EE9180 /* Resources */,
+				894F925FD2AC0532C299463A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SKAPE;
+			packageProductDependencies = (
+				FFC2318E2583EC9B00C4385D /* KingfisherSwiftUI */,
+			);
 			productName = SKAPE;
 			productReference = FFC48BB125379DDA00EE9180 /* SKAPE.app */;
 			productType = "com.apple.product-type.application";
@@ -102,7 +323,7 @@
 				};
 			};
 			buildConfigurationList = FFC48BAC25379DDA00EE9180 /* Build configuration list for PBXProject "SKAPE" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -110,6 +331,9 @@
 				Base,
 			);
 			mainGroup = FFC48BA825379DDA00EE9180;
+			packageReferences = (
+				FFC2318D2583EC9B00C4385D /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = FFC48BB225379DDA00EE9180 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFC48BC125379DDC00EE9180 /* LaunchScreen.storyboard in Resources */,
+				FFC48BEC253F2DBB00EE9180 /* GoogleService-Info.plist in Resources */,
 				FFC48BBE25379DDC00EE9180 /* Assets.xcassets in Resources */,
 				FFC48BBC25379DDA00EE9180 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +357,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		59541E3F23E28B12B5FBC29E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SKAPE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		894F925FD2AC0532C299463A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SKAPE/Pods-SKAPE-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SKAPE/Pods-SKAPE-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SKAPE/Pods-SKAPE-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FFC48BAD25379DDA00EE9180 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFC48BB925379DDA00EE9180 /* ViewController.swift in Sources */,
+				FF7A8FBD257C565800FFCED5 /* AddLocationController.swift in Sources */,
+				FFA0E3E425BF5188001ACDF1 /* SideMenuHeaderView.swift in Sources */,
+				FFC48BE12539D31400EE9180 /* SignUpController.swift in Sources */,
+				FFC48BE9253A4A9700EE9180 /* AuthButton.swift in Sources */,
+				FFA0E3EA25BF51C5001ACDF1 /* SideMenuViewModel.swift in Sources */,
+				FFC231B225842B4700C4385D /* HomepageLogoView.swift in Sources */,
+				FFC48C15253F54EA00EE9180 /* HomeController.swift in Sources */,
+				FF7A8FB9257C4E5700FFCED5 /* SettingsController.swift in Sources */,
+				FFAB0DEA2586C30900BE12C4 /* StartButton.swift in Sources */,
+				FF5C686B256353C000E36903 /* LandscaperAnnotation.swift in Sources */,
+				FF2B1D702548A43C00911E7D /* LocationInputView.swift in Sources */,
+				FFC48BD42537A0E100EE9180 /* LoginController.swift in Sources */,
 				FFC48BB525379DDA00EE9180 /* AppDelegate.swift in Sources */,
+				FFC2318A2583EAEF00C4385D /* SkapeApp.swift in Sources */,
+				FF596639255F06D200D26CF6 /* LocationCell.swift in Sources */,
+				FF9C634E258860EC0086A809 /* ServicesList.swift in Sources */,
+				FF3C8B8C25F2C23600F406D4 /* Messages.swift in Sources */,
+				FFC231822583E8ED00C4385D /* ContentView.swift in Sources */,
+				FFA0E3E125BF5169001ACDF1 /* SideMenuView.swift in Sources */,
+				FF7A8FC3257C6D7B00FFCED5 /* CircularProgressView.swift in Sources */,
+				FF5C68762565FE9600E36903 /* SkapeActionView.swift in Sources */,
+				FFC231A62583FC5800C4385D /* HomeView.swift in Sources */,
+				FF7A8FC0257C56D100FFCED5 /* UserInfoHeader.swift in Sources */,
+				FF5C68642561F8A700E36903 /* LocationHandler.swift in Sources */,
+				FF7A8FAF2578685100FFCED5 /* MenuController.swift in Sources */,
 				FFC48BB725379DDA00EE9180 /* SceneDelegate.swift in Sources */,
+				FF7A8FB22578687900FFCED5 /* ContainerController.swift in Sources */,
+				FF7A8FB5257AF4FF00FFCED5 /* MenuHeader.swift in Sources */,
+				FFAB0DF42587C58F00BE12C4 /* Buttons.swift in Sources */,
+				FFAF75ED25F97C600062A33C /* TabBarController.swift in Sources */,
+				FF5C68612561D08800E36903 /* User.swift in Sources */,
+				FFA0E3E725BF51A7001ACDF1 /* SideMenuOptionView.swift in Sources */,
+				FFD4F13F2561860D004BF365 /* Service.swift in Sources */,
+				FF5C68802568561000E36903 /* JobController.swift in Sources */,
+				FFC231B625853B1400C4385D /* SmallVerticalButton.swift in Sources */,
+				FF2B1D6A2545C7E300911E7D /* LocationInputActivationView.swift in Sources */,
+				FFC48BDE2537AFE400EE9180 /* Extensions.swift in Sources */,
+				FF5C68792568362C00E36903 /* Job.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +452,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				FFC48BBB25379DDA00EE9180 /* Base */,
+				FFC48BDA2537A2ED00EE9180 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -158,6 +461,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				FFC48BC025379DDC00EE9180 /* Base */,
+				FFC48BD125379F4700EE9180 /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -198,8 +502,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5TDTY4Z4X4;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -216,7 +523,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -259,8 +566,11 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5TDTY4Z4X4;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -271,7 +581,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,9 +593,11 @@
 		};
 		FFC48BC625379DDC00EE9180 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC45AEB2D26579379FED994D /* Pods-SKAPE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5TDTY4Z4X4;
 				INFOPLIST_FILE = SKAPE/Info.plist;
@@ -296,15 +608,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SKAPE.SKAPE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FFC48BC725379DDC00EE9180 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9367B1C0CD029183B8F7AA97 /* Pods-SKAPE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5TDTY4Z4X4;
 				INFOPLIST_FILE = SKAPE/Info.plist;
@@ -315,7 +629,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SKAPE.SKAPE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -341,6 +655,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FFC2318D2583EC9B00C4385D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.15.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FFC2318E2583EC9B00C4385D /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FFC2318D2583EC9B00C4385D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FFC48BA925379DDA00EE9180 /* Project object */;
 }

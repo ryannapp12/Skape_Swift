@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>518790934167-ec438l23cntrbmq1s6q5t0jc2m6847qi.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.518790934167-ec438l23cntrbmq1s6q5t0jc2m6847qi</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDqdWIhlFeh4ETawEr1GuxTRfY4j15_RVY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>518790934167</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.SKAPE.SKAPE</string>
+	<key>PROJECT_ID</key>
+	<string>skape-67bb2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>skape-67bb2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:518790934167:ios:6c2a6bbd1ee82b1f7a83d2</string>
+	<key>DATABASE_URL</key>
+	<string>https://skape-67bb2.firebaseio.com</string>
+</dict>
+</plist>
